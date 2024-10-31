@@ -1,2 +1,5 @@
 # Todo-Via-Figma
-JavaScript
+JavaScript FrontEnd Project
+Basic Location Finding Concepts
+Using Fetch Api
+DOM Concept
