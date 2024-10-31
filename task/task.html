@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+<div class="container">
+    <div class="left">
+        <div class="top">
+        <button id="taskbtn"><i class="uil uil-clipboard-notes"></i> Task </button>
+        <button id="locbtn"> <i class="uil uil-map-marker"></i>Location</button>
+    </div>
+    <div class="bottom">
+        <button id="logout"><i class="uil uil-signout"></i>Logout</button>
+    </div>
+    </div>
+    <div class="right">
+        <div class="tasks">
+            <button id="newshow">+ Add new task</button>
+            <div class="incomplete">
+                <h3>Incomplete</h3>
+                <div class="parent">
+                 <!-- <div class="datas">
+                    <input type="checkbox" name="" id="">
+                    <h3>Submit my Resume</h3>
+                    <p><i class="uil uil-clock-five"></i>Today,17:00</p>
+                </div> 
+                <div class="datas">
+                    <input type="checkbox" name="" id="">
+                    <h3>Complete the test</h3>
+                    <p ><i class="uil uil-clock-five"></i>Tomorrow,10:00</p>
+                </div>
+                <div class="datas">
+                    <input type="checkbox" name="" id="">
+                    <h3>Meeting with jack</h3>
+                    <p><i class="uil uil-clock-five"></i>24 Feb,15:00</p>
+                </div>
+                <div class="datas">
+                    <input type="checkbox" name="" id="">
+                    <h3>Face time with Dad</h3>
+                    <p><i class="uil uil-clock-five"></i>24 Feb,5:00</p>
+                </div>   -->
+            </div>
+            </div>
+
+
+            <div class="complete">
+                <h3>Completed</h3>
+                <div class="parents">
+                <!-- <div class="complt">
+                    <input type="checkbox" name="" id=""checked>
+                    <p>Respone to jane email</p>
+                </div>
+                <div class="complt">
+                    <input type="checkbox"  name="" id="" checked>
+                    <p>Check the latest community</p>
+                </div>
+                <div class="complt">
+                    <input type="checkbox"  name="" id="" checked>
+                    <p>Service my bike</p>
+                </div> -->
+            </div>
+            </div>
+        </div>
+    </div>
+             <!-- Task End -->
+
+             
+       
+     <div class="locations">
+        <button id="btns">+ Check In</button>
+        <div class="current"><p> Current Locations </p>
+            <div class="trackloc">
+        <div class="currentLoc">
+            <h4 class="citynam"></h4>
+            <p class="ltd"></p>
+      </div>
+    </div>
+    </div>
+      <div class="prev"><p>Previous Location</p>
+        <div class="exitcurr">
+      <!-- <div class="previous">
+        <p>&#128205  Bahwalpur</p>
+      </div>
+      <div class="previous">
+        <p>&#128205  JamPur</p>
+      </div>
+      <div class="previous">
+        <p>&#128205  Lal Suhanra</p>
+      </div>
+      <div class="previous">
+        <p>&#128205  Contonment Board</p>
+      </div>
+      <div class="previous">
+        <p>&#128205  Bahwalpur</p>
+      </div> -->
+    </div>
+</div>
+
+     </div>
+</div>
+                         <!-- Locations End -->
+    <div class="newMain"> </div> 
+        <div class="newtask">
+       <h2>New Task</h2>
+       <i class="uil uil-comment-message"></i>
+       <input type="text" class="popupsummary" placeholder="Summry"><hr>
+       <i class="uil uil-list-ui-alt"></i>
+       <input class="dscr" placeholder="Discription" type="text"><hr>
+       <i class="uil uil-clock"></i>
+       <input class="time" placeholder="Due Date" type="datetime" name="" id=""><hr>
+       <button id="save">Save</button>
+       <button id="cancel">Cancel</button>
+    </div>  
+     <!--     New Tasks End               -->
+                  
+
+    <script src="task.js"></script>
+</body>
+</html>

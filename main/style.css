@@ -1,0 +1,39 @@
+
+form:focus{
+display: none;
+}
+.container{
+   border-radius: 20px;
+    margin: auto;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+     background-color: bisque;
+}
+.container  h2{
+margin-left: 35%;
+margin-bottom: 8%;
+}
+.inputData input{
+border: none;
+padding: 2%;
+margin-bottom: 7%;
+width: 60%;
+font-size: large;
+margin-left: 15%;
+background-color: whitesmoke;
+}
+.inputData input:focus{
+    outline: none;
+}
+button{
+    background-color: black;
+    color: white;
+    margin-left: 17%;
+    width: 60%;
+    border-radius: 30px;
+    padding: 3%;
+    border: none;
+    font-size: large;
+    margin-bottom: 2%;
+}
